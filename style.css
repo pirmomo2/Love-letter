@@ -69,3 +69,6 @@ button:hover {
     font-size: larger;
 	font-family: Pacifico, Arial;
 }
+.no {
+	transition: left 0.05s ease-out, top 0.05s ease-out, transform 0.05s ease-out;
+}
