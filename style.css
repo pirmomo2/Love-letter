@@ -1,14 +1,71 @@
 body {
-	font-family: Roboto, Arial;
+	font-family: Pacifico, Arial;
 	height: 100vh;
 	margin: 0;
-    background-image: linear-gradient(180deg, white, palevioletred);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* cursor: url('cursor.png'), auto; */
+	background-image: linear-gradient(180deg, white, #ff69b4);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* cursor: url('cursor.png'), auto; */
 }
 button:hover {
 	cursor: pointer;
+}
+.cardout {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 520px;
+	background-color: #ff69b4;
+	border-radius: 20px;
+}
+.cardin {
+	width: 380px;
+	height: 500px;
+	background-color: #fff0f5;
+	border-radius: 12px;
+	box-shadow: 0 0 20px #ff69b4;
+}
+.request {
+	color: #b90e6a;
+	font-size: xx-large;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10;
+	text-align: center;
+}
+.response {
+	height: 368px;
+	width: 380px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+}
+.teddy {
+	max-width: 120px;
+	height: auto;
+    margin-bottom: 90px;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.yes, .no {
+    width: 120px;
+    height: 50px;
+    background-color: #ffe8f0;
+    border-radius: 12px;
+    border-color: #ff69b4;
+    color: #b90e6a;
+    border-style: dashed;
+    font-size: larger;
+	font-family: Pacifico, Arial;
 }
