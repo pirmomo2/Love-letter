@@ -70,5 +70,5 @@ button:hover {
 	font-family: Pacifico, Arial;
 }
 .no {
-	transition: left 0.05s ease-out, top 0.05s ease-out, transform 0.05s ease-out;
+	transition: left 0.35s ease-out, top 0.35s ease-out, transform 0.35s ease-out;
 }
